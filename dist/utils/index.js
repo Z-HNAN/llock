@@ -1,12 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const readFileList = require("./readFileList");
-exports.readFileList = readFileList;
-const makeDirSync = require("./makeDirSync");
-exports.makeDirSync = makeDirSync;
-const copyFiles = require("./copyFiles");
-exports.copyFiles = copyFiles;
-const removeDeep = require("./removeDeep");
-exports.removeDeep = removeDeep;
-const logger = require("./logger");
-exports.logger = logger;
+const getPassword = require("./getPassword");
+exports.getPassword = getPassword;
+const getLockFile = require("./getLockFile");
+exports.getLockFile = getLockFile;

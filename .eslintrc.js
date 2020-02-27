@@ -3,5 +3,6 @@ module.exports = {
 
   rules: {
     // your rules
+    "no-console": 0
   },
 };

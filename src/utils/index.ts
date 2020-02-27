@@ -1,13 +1,9 @@
-import readFileList = require('./readFileList')
-import makeDirSync = require('./makeDirSync')
-import copyFiles = require('./copyFiles')
-import removeDeep = require('./removeDeep')
-import logger = require('./logger')
+import getPassword = require('./getPassword')
+import getLockFile = require('./getLockFile')
+
+
 
 export {
-  copyFiles,
-  makeDirSync,
-  readFileList,
-  removeDeep,
-  logger,
+  getLockFile,
+  getPassword,
 }

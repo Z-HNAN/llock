@@ -1,137 +1,38 @@
-# nppack
+# llock :lock:
 
-no-paste-pack
-
-## motivation
-
-when we develop server rendering project, we could use Bootstrap, it needs to paste more and more template html, so the project is very hard to development.
-
-nppack is a way to help your use *Component* to development(if you follow some rules), at last the dist html is like to paste more and more template html, of course it is a work for nppack
+lock folder without any technology, it's very easy but not security. For grilfriend it's all right, love-lock :love_letter:
 
 ## quick-start
 
 ### install
-```bash
-yarn add nppack
-```
-
-### project-dir
-
-```plain
-│  config.json
-│
-└─src
-    ├─admin
-    │  ├─department
-    │  │      Content.html
-    │  │      Footer.html
-    │  │      Header.html
-    │  │      index.css
-    │  │      index.html
-    │  │
-    │  └─user
-    ├─css
-    │      bootstrap.min.css
-    │
-    ├─image
-    └─js
-            bootstrap.min.js
-            jquery.min.js
-```
-
-### Config.json
-
-```json
-{
-  "src": "./src",
-  "srcPublicJs": "./src/js",
-  "srcPublicCss": "./src/css",
-  "srcPublicImage": "./src/image",
-
-  "dist": "./public",
-  "distPublicJs": "./public/js",
-  "distPublicCss": "./public/css",
-  "distPublicImage": "./public/image",
-
-  "port": 5500,
-  "host": "0.0.0.0"
-}
-```
-
-### how to use
-
-```html
-...
-<div>
-  <Header />
-  <h1>nppack</h1>
-</div>
-...
-```
-
-index.html
-
-
-```html
-...
-<div>
-  <h1>Header</h1>
-</div>
-...
-```
-
-Header.html
-
-### build
-
-in the project root
 
 ```bash
-# it will build
-nppack build
-
-# it will watch file and start devServer
-nppack dev
+npm install llock -g
 ```
 
-in your `config.json - dist: 'xxx'` your `xxx` folder is result html
+### use
 
-## Rules
+1. in your folder
 
-1. in `src` folder the `xxx/xxx/index.html` will be used as a template 
-
-2. in `index.html`, your component name must start with uppercase and in same path your Component.html's file name is same as Component name
-
-```html
-<div>
-  <Header>
-  <h1>foo</h1>
-</div>
+```bash
+llock
 ```
 
-```plain
-|-- index.html
-|-- Header.html
-```
+2. build locker `locker.bat` *this is your **locker**, it's all*
 
-3. public js, css, image's path is setting in `config.json`
+3. double click to run `locker.bat`, and confirm your `folderName`, `password`
 
-4. you could use js, css... they could copy to dist folder
+4. double click to run `locker.bat`, you could lock or unlock
 
-```plain
-|-- index.html
-|-- Header.html
-|-- index.css
-|-- index.js
-```
+## is's not security
 
-```html
-<link href="./index.css" rel="stylesheet">
+ths password is in your `locker.bat`
+
+```bash
 ...
-<div>
-  <Header>
-  <h1>foo</h1>
-</div>
+if NOT %pass%== <password> goto FAIL
 ...
-<script src="./index.js"></script>
 ```
+
+for your grilfriend it's all right. :smirk: 
+
