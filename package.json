@@ -1,6 +1,6 @@
 {
   "name": "llock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "lock folder without any technology, it's very easy but not security. For grilfriend it's all right",
   "main": "index.js",
   "bin": {

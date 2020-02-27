@@ -24,9 +24,9 @@ llock
 
 4. double click to run `locker.bat`, you could lock or unlock
 
-## is's not security
+## it's not security
 
-ths password is in your `locker.bat`
+the password is in your `locker.bat`
 
 ```bash
 ...
