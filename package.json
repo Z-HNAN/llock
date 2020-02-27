@@ -1,6 +1,6 @@
 {
   "name": "llock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "lock folder without any technology, it's very easy but not security. For grilfriend it's all right",
   "main": "index.js",
   "bin": {
@@ -11,7 +11,7 @@
   },
   "keywords": ["cli", "lock-folder", "gril-friend"],
   "author": "Z-HNAN",
-  "repository": "https://github.com/Z-HNAN/nppack",
+  "repository": "https://github.com/Z-HNAN/llock",
   "license": "MIT",
   "dependencies": {
     "@types/inquirer": "^6.5.0",
