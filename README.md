@@ -1,6 +1,6 @@
 # llock :lock:
 
-lock folder without any technology, it's very easy but not security. For grilfriend it's all right, love-lock :love_letter:
+lock folder without any technology, it's very easy but not security. For girlfriend it's all right, love-lock :love_letter:
 
 ## quick-start
 
@@ -34,5 +34,5 @@ if NOT %pass%== <password> goto FAIL
 ...
 ```
 
-for your grilfriend it's all right. :smirk: 
+for your girlfriend it's all right. :smirk: 
 
